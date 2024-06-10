@@ -36,7 +36,7 @@ const Contact = () => {
     <section id="contactPage">
         <div id="client">
             <h2 className="contactPageTitle">Client</h2>
-            <p className="clientDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, amet, </p>
+            <p className="clientDesc">"I prioritize understanding my clients' unique visions and goals, ensuring each project is tailored to meet their specific needs and exceeds their expectations through innovative and user-friendly web solutions."</p>
             <div className="clientImgs">
                 <img src={Walmart} alt="client" className="clientImg" />
                 <img src={Adobe} alt="client" className="clientImg" />
@@ -46,7 +46,7 @@ const Contact = () => {
         </div>
         <div id="contact">
             <h2 className="contactPageTitle">Contact Me</h2>
-            <span className="clientDesc">Lorem ipsum dolor sit amet consectetur</span>
+            <span className="clientDesc">Contact me if you want to build your own website!</span>
             <form className="contactForm" ref={form} onSubmit={sendEmail}>
 
                 <input type="text" className="name" placeholder='Your Name' name = 'your_name' />

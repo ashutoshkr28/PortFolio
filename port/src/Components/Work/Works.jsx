@@ -11,8 +11,7 @@ const Works = () => {
   return (
     <section id='works'>
       <h2 className="workstitle">My PortFolio</h2>
-      <span className="worksDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus odit voluptatibus enim, vero laboriosam, sit a magni suscipit dolor non atque nobis, illo fugiat sapiente obcaecati quas? Vitae, provident rem.
-      Quasi corporis cum consequatur reiciendis nobis facilis at vitae odio delectus eligendi? Facilis cupiditate, necessitatibus fuga ipsum voluptatibus esse amet illum itaque sit beatae molestiae labo</span>
+      <span className="worksDesc">"As a passionate front-end developer, I specialize in creating dynamic, responsive web interfaces that enhance user experience and drive engagement. With a keen eye for detail and a commitment to staying current with the latest technologies, I bring innovative solutions to every project I undertake."</span>
        <div className="worksImgs">
        <img src={Portfolio1} alt="Portfolio1" className="worksImg" />
        <img src={Portfolio2} alt="Portfolio2" className="worksImg" />
