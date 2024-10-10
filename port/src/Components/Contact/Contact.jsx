@@ -34,7 +34,7 @@ const Contact = () => {
     
   return (
     <section id="contactPage">
-        <div id="client">
+        {/* <div id="client">
             <h2 className="contactPageTitle">Client</h2>
             <p className="clientDesc">"I prioritize understanding my clients' unique visions and goals, ensuring each project is tailored to meet their specific needs and exceeds their expectations through innovative and user-friendly web solutions."</p>
             <div className="clientImgs">
@@ -43,7 +43,7 @@ const Contact = () => {
                 <img src={Microsoft} alt="client" className="clientImg" />
                 <img src={Facebook} alt="client" className="clientImg" />
             </div>
-        </div>
+        </div> */}
         <div id="contact">
             <h2 className="contactPageTitle">Contact Me</h2>
             <span className="clientDesc">Contact me if you want to build your own website!</span>
